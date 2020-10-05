@@ -15,3 +15,9 @@ outputs:
 Access granted
 Access denied
 """
+
+un = ""
+pw = ""
+
+while un !="admin" and pw != "12345":
+  un = input("enter username
