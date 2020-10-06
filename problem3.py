@@ -13,3 +13,11 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+while True:
+    a = input("Enter a number: ").strip()
+    a = float(a)
+    if a%2!= 0:
+        print("That is not an even integer")
+    else:
+      print("That is an even integer")
+      break
